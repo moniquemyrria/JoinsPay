@@ -28,6 +28,8 @@ namespace projectback.Context
                 _ = new EnderecoConfiguration(modelBuilder.Entity<EnderecoDTO>());
                 
                 _ = new TipoReceitaConfiguration(modelBuilder.Entity<TipoReceitaDTO>());
+                
+                _ = new TipoDespesaConfiguration(modelBuilder.Entity<TipoDespesaDTO>());
 
             }
         }
@@ -40,6 +42,8 @@ namespace projectback.Context
         public DbSet<EnderecoDTO> Enderecos { get; set; }
         
         public DbSet<TipoReceitaDTO> TipoReceita { get; set; }
+        
+        public DbSet<TipoDespesaDTO> TipoDespesa { get; set; }
 
 
         public async Task<int> SaveChangesMR(long usuarioId)
