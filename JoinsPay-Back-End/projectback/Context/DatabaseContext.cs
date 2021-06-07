@@ -30,6 +30,10 @@ namespace projectback.Context
                 _ = new TipoReceitaConfiguration(modelBuilder.Entity<TipoReceitaDTO>());
                 
                 _ = new TipoDespesaConfiguration(modelBuilder.Entity<TipoDespesaDTO>());
+                
+                _ = new TipoContaConfiguration(modelBuilder.Entity<TipoContaDTO>());
+                
+                _ = new ContaConfiguration(modelBuilder.Entity<ContaDTO>());
 
             }
         }
@@ -44,6 +48,10 @@ namespace projectback.Context
         public DbSet<TipoReceitaDTO> TipoReceita { get; set; }
         
         public DbSet<TipoDespesaDTO> TipoDespesa { get; set; }
+        
+        public DbSet<TipoContaDTO> TipoConta { get; set; }
+        
+        public DbSet<ContaDTO> Conta { get; set; }
 
 
         public async Task<int> SaveChangesMR(long usuarioId)

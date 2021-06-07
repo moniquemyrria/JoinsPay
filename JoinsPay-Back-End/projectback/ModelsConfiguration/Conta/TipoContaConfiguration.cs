@@ -22,7 +22,8 @@ namespace projectback.ModelsConfiguration
                 entity.Property(t => t.descricao).HasMaxLength(30).IsRequired();
 
                 entity.Property(t => t.deletado).HasMaxLength(1);
-
+                
+                entity.Property(t => t.padrao).HasMaxLength(1);
 
             }
         }

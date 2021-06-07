@@ -56,6 +56,21 @@ const routes = [
         name: "TipoDespesa",
         component: () => import("../views/Cadastro/TipoDespesaForm.vue"),
       },
+      {
+        path: "/tipoContas",
+        name: "TipoConta",
+        component: () => import("../views/Cadastro/TipoContaLista.vue"),
+      },
+      {
+        path: "/tipoConta/:id",
+        name: "TipoContaEdit",
+        component: () => import("../views/Cadastro/TipoContaForm.vue"),
+      },
+      {
+        path: "/tipoConta",
+        name: "TipoConta",
+        component: () => import("../views/Cadastro/TipoContaForm.vue"),
+      },
 
   
       {
