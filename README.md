@@ -1,2 +1,2 @@
 # Joins Pay
-Controle Pessoal Financeiro em Angular
+Controle Pessoal Financeiro em Vue JS
