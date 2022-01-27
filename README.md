@@ -1,2 +1,2 @@
-# JoinsPay
-Controle Pessoal Financeiro
+# Joins Pay
+Controle Pessoal Financeiro em Angular
