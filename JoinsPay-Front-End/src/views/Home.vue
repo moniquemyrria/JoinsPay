@@ -66,6 +66,7 @@ export default class Home extends Vue implements IHomeView {
           new MenuItem("Tipo de Receitas", "/tipoReceitas", false),
           new MenuItem("Tipo de Despesas", "/tipoDespesas", false),
           new MenuItem("Tipos de Contas", "/tipoContas", false),
+          new MenuItem("Contas", "/contas", false),
           
           new MenuItem("Calendário", "/calendario", false),
         ])

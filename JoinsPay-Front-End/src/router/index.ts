@@ -72,6 +72,22 @@ const routes = [
         component: () => import("../views/Cadastro/TipoContaForm.vue"),
       },
 
+      {
+        path: "/contas",
+        name: "Conta",
+        component: () => import("../views/Cadastro/ContaLista.vue"),
+      },
+      // {
+      //   path: "/conta/:id",
+      //   name: "ContaEdit",
+      //   component: () => import("../views/Cadastro/ContaForm.vue"),
+      // },
+      // {
+      //   path: "conta",
+      //   name: "Conta",
+      //   component: () => import("../views/Cadastro/ContaForm.vue"),
+      // },
+
   
       {
         path: "/calendario/",
